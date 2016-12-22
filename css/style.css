@@ -1,0 +1,13 @@
+.capa-superman {
+    background-color: #f8f;
+    border: 2px solid blueviolet;
+    width: 360px;
+}
+.btn {
+    background: aqua;
+    color: black;
+}
+.btn-primary {
+    background-color: #CCC;
+    color: black;
+}

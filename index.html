@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Directives</title>
+    <link rel="stylesheet type="text/css" href="css/style.css">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app/app.js"></script>
+</head>
+<body ng-app="app" ng-controller="MyController">
+    <hello-world></hello-world>
+    <superman></superman>
+    <languages></languages>
+    <button>Botão sem btn</button>
+    <button btn>Botão com btn</button>
+    <button btn primary>Botão com btn primary</button>
+    <com-scope-false></com-scope-false>
+    <com-scope-true></com-scope-true>
+    <button power-switch ng-click="toggle()">lampada</button>
+    <span>{{state}}</span>
+</body>
+</html>
